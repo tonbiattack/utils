@@ -9,32 +9,26 @@ public class BasicResponse {
 	private String errorCode;
 	private String errorMessage;
 
-	// errorフィールドのゲッター
 	public boolean isError() {
 		return error;
 	}
 
-	// errorフィールドのセッター
 	public void setError(boolean error) {
 		this.error = error;
 	}
 
-	// errorCodeフィールドのゲッター
 	public String getErrorCode() {
 		return errorCode;
 	}
 
-	// errorCodeフィールドのセッター
 	public void setErrorCode(String errorCode) {
 		this.errorCode = errorCode;
 	}
 
-	// errorMessageフィールドのゲッター
 	public String getErrorMessage() {
 		return errorMessage;
 	}
 
-	// errorMessageフィールドのセッター
 	public void setErrorMessage(String errorMessage) {
 		this.errorMessage = errorMessage;
 	}
